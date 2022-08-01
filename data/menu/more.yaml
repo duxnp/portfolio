@@ -1,0 +1,10 @@
+---
+more:
+  - name: Resume
+    ref: 'http://www.hmidoors.com/downloads/HMI_SD_Catalog.pdf'
+    external: true
+    icon: 'gdoc_download'
+  - name: 'View Source'
+    ref: 'https://github.com/duxnp/portfolio'
+    external: true
+    icon: 'gdoc_github'
