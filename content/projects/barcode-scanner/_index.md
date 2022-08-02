@@ -54,19 +54,19 @@ There was initial talk about using a plain digital camera as part of the solutio
 Before taking photos, the user would first scan the order barcode to let the app know which order the photos belonged to. After taking the photos they get uploaded to the PHP backend along with the order number. A photo entity for each photo is then inserted into the database. At this point it becomes trivial to display a list of photos when they look up an order.
 
 {{< columns >}}
-{{< img name="barcode_1" size="tiny" lazy=false >}}
+{{< img name="barcode_1" size="tiny" lazy=true >}}
 <--->
-{{< img name="barcode_2" size="tiny" lazy=false >}}
+{{< img name="barcode_2" size="tiny" lazy=true >}}
 {{< /columns >}}
 
 {{< columns >}}
-{{< img name="barcode_3" size="tiny" lazy=false >}}
+{{< img name="barcode_3" size="tiny" lazy=true >}}
 <--->
-{{< img name="barcode_4" size="tiny" lazy=false >}}
+{{< img name="barcode_4" size="tiny" lazy=true >}}
 {{< /columns >}}
 
 {{< columns >}}
-{{< img name="barcode_5" size="tiny" lazy=false >}}
+{{< img name="barcode_5" size="tiny" lazy=true >}}
 <--->
-{{< img name="barcode_6" size="tiny" lazy=false >}}
+{{< img name="barcode_6" size="tiny" lazy=true >}}
 {{< /columns >}}
