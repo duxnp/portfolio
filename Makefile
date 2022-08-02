@@ -1,7 +1,7 @@
 THEME_VERSION := v0.33.1
 THEME := hugo-geekdoc
 BASEDIR := ''
-THEMEDIR := $(BASEDIR)/themes
+THEMEDIR := themes
 
 .PHONY: doc
 doc: doc-assets doc-build
@@ -13,9 +13,9 @@ doc-assets:
 
 .PHONY: doc-build
 doc-build:
-	cd $(BASEDIR); hugo
+	cd /; hugo
 
 .PHONY: clean
 clean:
 	rm -rf $(THEMEDIR) && \
-	rm -rf $(BASEDIR)/public
+	rm -rf public
