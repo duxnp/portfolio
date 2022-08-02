@@ -1,0 +1,6 @@
+[build]
+publish = "docs/public"
+command = "make doc"
+
+[build.environment]
+  HUGO_VERSION = "0.101.0"

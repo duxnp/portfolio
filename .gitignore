@@ -1,0 +1,8 @@
+# Local Netlify folder
+.netlify
+.vscode
+
+# Package Files
+node_modules/
+
+public/
