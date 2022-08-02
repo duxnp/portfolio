@@ -21,6 +21,7 @@ resources:
 
 - AngularJS
 - Javascript
+- Bootstrap 3
 - Grunt
 
 <---> <!-- magic separator, between columns -->
