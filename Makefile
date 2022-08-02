@@ -1,6 +1,6 @@
 THEME_VERSION := v0.33.1
 THEME := hugo-geekdoc
-BASEDIR := docs
+BASEDIR := ''
 THEMEDIR := $(BASEDIR)/themes
 
 .PHONY: doc
