@@ -13,7 +13,7 @@ doc-assets:
 
 .PHONY: doc-build
 doc-build:
-	cd /; hugo
+	hugo
 
 .PHONY: clean
 clean:
