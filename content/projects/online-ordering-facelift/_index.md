@@ -3,6 +3,7 @@ title: Online Ordering Facelift
 # geekdocNav: false
 # geekdocAlign: center
 # geekdocAnchor: false
+geekdocToC: 3
 resources:
   - name: oo-create-new
     src: 'oo-create-new.jpg'
@@ -40,7 +41,9 @@ resources:
 
 ## Tech
 
-- Bootstrap 3
+- Bootstrap 4
+- Javascript
+- PHP
 
 ## Problem
 
@@ -48,7 +51,7 @@ This company has a website that had been programmed by several other programmers
 
 ## Solution
 
-A stopgap solution involving HTML and CSS refactoring was approved. All HTML for the site was refactored to apply Bootstrap 3 classes to all relevant DOM elements while preserving any existing Javascript functionality. Regressions are of course always (usually?) undesired. This alone made the site vastly more pleasing to use.
+A stopgap solution involving HTML and CSS refactoring was approved. All HTML for the site was refactored to apply Bootstrap 4 classes to all relevant DOM elements while preserving any existing Javascript functionality. Regressions are of course always (usually?) undesired. This alone made the site vastly more pleasing to use.
 
 {{< columns >}}
 {{< img name="oo-login-old" size="medium" lazy=true >}}
