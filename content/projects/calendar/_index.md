@@ -47,7 +47,7 @@ resources:
   {{< toc format=[html] >}}
   {{< /columns >}}
 
-This app came about after a friend and I joked about what it would be like if our calendar had no months, just 365 to 366 days. So the Beluvian calendar was created. Parts of it are inspired by the Gregorian calendar.
+This app came about after a friend and I joked about what it would be like if our calendar had no months, just 365 to 366 days. So the Beluvian calendar was created. Parts of it are inspired by the Gregorian calendar:
 
 - The grid used to display it has 7 columns although even I'm not really sure if weekends exist in this fictional world.
 - There is a leap day in place of where February 29th would be on a Gregorian calendar. It has its own name and only shows up on leap years.
