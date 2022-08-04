@@ -31,15 +31,16 @@ resources:
 ### Front End
 
 - Angular
-- Typescript
 - Ionic
+- RxJS
+- Typescript
 
 <---> <!-- magic separator, between columns -->
 
 ### Back End
 
-- PHP
 - MySQL
+- PHP
 
 {{< /columns >}}
 

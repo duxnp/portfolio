@@ -24,7 +24,7 @@ resources:
 
 This company needed a way to more easily attach order information to things to track manufactured items. The vast majority of items manufactured are custom orders, so it's very important to identify that a particular item belongs to a particular order. They wanted a small serial number label for the item itself, and larger, more complete order label for the cardboard box the item would be packaged in.
 
-They had an existing process, but it was fairly labor intensive and sometimes wasteful. Also, they did not previously produce serial number labels. They only printed box labels. It involved 8.5" x 11" sheets of Avery shipping labels with 4 labels per sheet. They had a report to format the labels, but they had to manually type in each order number each time the report was run. If the number of labels was not a multiple of 4, they would waste labels.
+They had an existing process, but it was fairly labor intensive and sometimes wasteful. Also, they did not previously produce serial number labels. They only printed box labels. The old process involved 8.5" x 11" sheets of Avery shipping labels with 4 labels per sheet. They had a report to format the labels, but they had to manually type in each order number each time the report was run. If the number of labels was not a multiple of 4, they would waste labels.
 
 ## Solution
 

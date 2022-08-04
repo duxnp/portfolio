@@ -34,13 +34,16 @@ resources:
 ---
 
 {{< columns size="large" >}}
-[Live Website](https://beluvian-calendar.web.app){{< icon "gdoc_link" >}}
+{{< icon "gdoc_link" >}}[Live Website](https://beluvian-calendar.web.app)
+{{< icon "gdoc_github" >}}[Github Repo](https://github.com/duxnp/ng-tests)
 
 ## Tech
 
 - Angular
+- RxJS
 - Nx
 - NgRx
+- Typescript
 - Jest
 - Cypress
   <--->

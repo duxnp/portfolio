@@ -39,6 +39,11 @@ resources:
 
 [Live Website](https://www.hmidoors.net){{< icon "gdoc_link" >}}
 
+{{< hint type=note >}}
+**Only authorized dealers have access to this website**\
+You will be able to see the login page, but not do much else.
+{{< /hint >}}
+
 ## Tech
 
 - Bootstrap 4
