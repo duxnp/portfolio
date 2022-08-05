@@ -71,11 +71,17 @@ To solve the architecture and authentication problems I chose Angular for the fr
 
 Client side frameworks like Angular provide tools to help manage form state. This will make it much easier to allow existing quotes to be edited. Technologies like Ionic and NativeScript offer ways to program an app with Angular then compile a native mobile app.
 
+#### OnPush Change Detection
+
+By default, a new Angular project uses automatic change detection when updating the DOM with new values. This is like Angular easy mode. It means value changes are pretty much always reflected in the DOM. It comes at a cost though. If your template requires any functions to run, those functions can run several times each change detection cycle. Previous Angular projects I worked on used this change detection strategy and it did raise some performance concerns.
+
+For this new project I wanted all components to use OnPush as the change detection strategy. OnPush has a much more strict set of conditions that will trigger the DOM to update. Therefore, it is much more efficient.
+
 ### Laravel
 
 Laravel provides authentication and end point routing out of the box. This will allow the site to have a more modern, secure authentication system and make it much easier to configure back end resources on the front end.
 
-### Multi Table Inheritance (Polymorhpic Relationships)
+#### Multi Table Inheritance (Polymorhpic Relationships)
 
 Regarding the database schema design, one thing I wanted to improve over the original design was to use polymorphic relationships on the back end. For example, products can belong to a quote, but not every product type has the same properties. When using a single table in this situation, you end up with many null fields. If you’d like to avoid this, Eloquent (included with Laravel) allows you to define polymorphic relationships in the model classes. One table would include all the common fields, and other tables would each contain fields unique to the different product types. When retrieving the polymorphic relationship from the parent, Eloquent will automatically retrieve the rest of the fields from the correct table.
 

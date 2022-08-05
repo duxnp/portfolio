@@ -28,7 +28,7 @@ Additionally experienced using the Adobe Creative Suite and Microsoft Office Sui
 
 ### Multilingual
 
-Typescript, Javascript, PHP, SQL, HTML, CSS, SASS, C#
+Typescript, Javascript, PHP, SQL, HTML, CSS, SASS, jQuery, C#
 
 <--->
 
@@ -38,9 +38,18 @@ Angular, Laravel
 
 <--->
 
-### Education
+### Educated
 
 **Drexel University**\
 BS in Information Science and Technology
 
+{{< /columns >}}
+
+{{< columns >}}
+
+### Efficient
+
+He has Stack Overflow bookmarked!
+<--->
+<--->
 {{< /columns >}}

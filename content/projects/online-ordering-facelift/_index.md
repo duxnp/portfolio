@@ -48,6 +48,7 @@ You will be able to see the login page, but not do much else.
 
 - Bootstrap 4
 - Javascript
+- jQuery
 - PHP
 
 ## Problem
