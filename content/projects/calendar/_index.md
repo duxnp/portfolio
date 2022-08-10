@@ -1,5 +1,5 @@
 ---
-title: Calendar
+title: Beluvian Calendar
 # geekdocNav: false
 # geekdocAlign: center
 # geekdocAnchor: false
