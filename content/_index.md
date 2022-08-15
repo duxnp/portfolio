@@ -16,7 +16,7 @@ This the documentation site for Bryan Kowal.
 
 ## Summary
 
-Bryan Kowal here, I am a full stack web app developer with experience developing web and desktop apps. Front-end experience is primarily with Angular and all the various technologies that would entail including Nx, TypeScript, RxJS, NgRx, HTML, and SASS. Back-end experience includes Laravel, PHP, and MySQL.
+Bryan Kowal here, I am a full stack web app developer with experience developing web and desktop apps. Front-end experience is primarily with Angular and ancillary technologies: Nx, TypeScript, RxJS, NgRx, HTML, and SASS. Back-end experience includes Laravel, PHP, and MySQL.
 
 While many programmers shy away from writing unit tests I tackle it full on. I use Jest and Cypress to test my Angular apps.
 
@@ -50,7 +50,7 @@ Full stack app developer to be specific.
 
 ### Troubleshooter
 
-I have very effective troubleshooting skills.
+I have comprehensive and stealth-like skills in determining root cause.
 
 {{< /columns >}}
 
