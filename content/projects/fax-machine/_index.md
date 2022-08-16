@@ -1,8 +1,6 @@
 ---
 title: Fax Machine
-# geekdocNav: false
-# geekdocAlign: center
-# geekdocAnchor: false
+weight: 100
 resources:
   - name: fax-machine
     src: 'fax-machine.jpg'

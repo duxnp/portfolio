@@ -1,5 +1,6 @@
 ---
 title: Online Ordering Facelift
+weight: 80
 # geekdocNav: false
 # geekdocAlign: center
 # geekdocAnchor: false

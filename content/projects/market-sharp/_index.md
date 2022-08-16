@@ -1,8 +1,6 @@
 ---
 title: Market Sharp
-# geekdocNav: false
-# geekdocAlign: center
-# geekdocAnchor: false
+weight: 110
 resources:
   - name: ui
     src: 'market-sharp-canvasser-payroll.jpg'

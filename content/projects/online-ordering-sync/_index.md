@@ -1,5 +1,6 @@
 ---
 title: Online Ordering Sync
+weight: 70
 ---
 
 ## Tech

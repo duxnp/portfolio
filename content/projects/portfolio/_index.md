@@ -1,5 +1,6 @@
 ---
 title: Portfolio
+weight: 50
 ---
 
 {{< columns size="large" >}}

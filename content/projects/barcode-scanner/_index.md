@@ -1,5 +1,6 @@
 ---
 title: Barcode Scanner
+weight: 60
 # geekdocNav: false
 # geekdocAlign: center
 # geekdocAnchor: false

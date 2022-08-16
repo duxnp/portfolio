@@ -1,5 +1,6 @@
 ---
 title: Online Ordering Redesign
+weight: 20
 ---
 
 {{< hint type=note >}}
@@ -53,7 +54,7 @@ This company's existing website has some problems:
   - Passwords are stored unencrypted as plain text
   - Nearly impossible to add an API
 - Separate cost and retail sites each with their own databases
-  - Customers would be confused about logging in to two different sites
+  - Customers often get confused about logging in to two different sites
   - Makes it much more difficult to create an API
   - Makes it much more confusing for a person trying to use an API
 
@@ -89,10 +90,35 @@ This also more closely maps to how classes would be defined in which child class
 
 ### Collaboration
 
-I also took this opportunity to explore better ways for devs to collaborate. This is where Docker and Laravel Sail come in. One way to allow devs to collaborate more efficiently is to provide easily reproducable dev environments.
+I also took this opportunity to explore better ways for devs to collaborate. This is where Github, Docker, and Laravel Sail come in. One way to allow devs to collaborate more efficiently is to provide easily reproducable dev environments to eliminate the "Well it works on my machine" problem.
 
-The Angular front end project is in one Github repo. To get this project up and running on a local machine, you simply clone the repo then run npm install. (Assuming Git and Node are installed.)
+The Angular front end project is in one Github repo. To get this project up and running on a local machine, you run the following commands: (Assuming Git and Node are installed.)
 
-The Laravel back end project is in another Github repo. To get this project up and running on a local machine, you clone the repo then open the folder in VS Code. VS Code will detect the presence of a dev container definition and ask if you want to reopen the folder in a remote dev container. Then you run the database migrations. Truth be told there are a few other commands that need to be run, but they are all easily reproducable.
+```
+$ git clone https://github.com/{{user}}/{{front-end-project}}
+$ cd {{front-end-project}}
+$ npm install
+$ nx serve front-end-app
+```
 
-Also, both Angular and Laravel are opinionated frameworks, which I'm imagining would help reduce the amount of time a team of developers has to spend to create their own style guide.
+The Laravel back end project is in another Github repo. To get this project up and running on a local machine, you run the following commands from your local terminal:
+
+```
+$ git clone https://github.com/{{user}}/{{back-end-project}}
+$ cd {{back-end-project}}
+$ docker run --rm \
+    -u "$(id -u):$(id -g)" \
+    -v $(pwd):/var/www/html \
+    -w /var/www/html \
+    laravelsail/php81-composer:latest \
+    composer install --ignore-platform-reqs
+$ code .
+```
+
+VS Code will detect the presence of a dev container definition and ask if you want to reopen the folder in a remote dev container. Once VS Code is connected to the container, you run the database migration from the terminal panel within VS Code:
+
+```
+$ php artisan migrate --seed
+```
+
+Also, both Angular and Laravel are opinionated frameworks, which I imagine would help reduce the amount of time a team of developers has to spend to create their own style guide.

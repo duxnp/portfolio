@@ -1,8 +1,6 @@
 ---
 title: Product Labels
-# geekdocNav: false
-# geekdocAlign: center
-# geekdocAnchor: false
+weight: 120
 resources:
   - name: labels-box
     src: 'labels-box.jpg'

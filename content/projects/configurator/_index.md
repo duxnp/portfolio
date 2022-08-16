@@ -1,5 +1,6 @@
 ---
-title: Configurator
+title: Door Customizer
+weight: 10
 # geekdocNav: false
 # geekdocAlign: center
 # geekdocAnchor: false
@@ -8,6 +9,8 @@ resources:
     src: 'configurator.jpg'
     title: Configurator
 ---
+
+## _Aka Door Configurator_
 
 [Live Website](http://www.hmidoors.com/configurator){{< icon "gdoc_link" >}}
 
