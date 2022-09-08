@@ -47,9 +47,10 @@ resources:
 - Typescript
 - Jest
 - Cypress
-  <--->
-  {{< toc format=[html] >}}
-  {{< /columns >}}
+
+<--->
+{{< toc format=[html] >}}
+{{< /columns >}}
 
 This app came about after a friend and I joked about what it would be like if our calendar had no months, just 365 to 366 days. So the Beluvian calendar was created. Parts of it are inspired by the Gregorian calendar:
 

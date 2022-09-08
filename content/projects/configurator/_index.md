@@ -48,7 +48,7 @@ A manufacturing company I worked for wanted a tool to allow customers and homeow
 
 ## Solution
 
-### App
+### Single Page Web App
 
 A complex, responsive, mobile friendly form was created with AngularJS. This lets the user choose options such a door style, door color, etc. When a form change is detected, the selected options are sent to the backend. The backend then runs an image compositing script to pull various image assets together into a single image. This image is then returned to the front end.
 

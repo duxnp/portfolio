@@ -20,10 +20,10 @@ resources:
     title: Old Quote Form (Yes, you had to scroll horizontally)
   - name: oo-invoice-new
     src: 'oo-invoice-new.jpg'
-    title: Old Invoice
+    title: New Invoice
   - name: oo-invoice-old
     src: 'oo-invoice-old.jpg'
-    title: New Invoice
+    title: Old Invoice
   - name: oo-login-new
     src: 'oo-login-new.jpg'
     title: New Login
@@ -54,7 +54,7 @@ You will be able to see the login page, but not do much else.
 
 ## Problem
 
-This company has a website that had been programmed by several other programmers over the years. It has severy very complex forms used to create quotes for manufactured products. The website worked most of the time, but there were many complaints that it was ugly and difficult to use. The architecture and code quality were extremely poor. Ideally, the site should be reprogrammed from scratch with modern day best practices in mind. However, that idea was frowned upon due to how long it would take.
+This company has a website that had been programmed by several other programmers over the years. It has several very complex forms used to create quotes for manufactured products. The website worked most of the time, but there were many complaints that it was ugly and difficult to use. The architecture and code quality were extremely poor. Ideally, the site should be reprogrammed from scratch with modern day best practices in mind. However, that idea was frowned upon due to how long it would take.
 
 ## Solution
 
