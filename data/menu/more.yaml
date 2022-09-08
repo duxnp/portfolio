@@ -1,9 +1,5 @@
 ---
 more:
-  - name: Resume
-    ref: '/Resume-Bryan-Kowal.pdf'
-    external: true
-    icon: 'gdoc_download'
   - name: 'View Source'
     ref: 'https://github.com/duxnp/portfolio'
     external: true
